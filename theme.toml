@@ -1,0 +1,11 @@
+name = "jmhugo"
+license = "MIT"
+licenselink = "https://github.com/D1CED/jmhugo/blob/master/LICENSE"
+description = ""
+homepage = "https://github.com/D1CED/jmhugo"
+tags = ["blog","minimal","personal"]
+features = ["blog"]
+
+[author]
+  name = "Jannis M. Hoffmann"
+  homepage = "https://jmhoffmann.de"

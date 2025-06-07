@@ -1,0 +1,38 @@
+body {
+  max-width: 768px;
+  /* width: 35em; */
+  margin: 0 auto;
+  margin-bottom: 3em;
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  color: rgb(53, 56, 57);  /* onyx */
+  /* color: #222; */
+  background-color: rgb(255, 255, 240);  /* ivory */
+}
+
+h1 {
+  font-family: Georgia, Garamond, Times, serif;
+}
+
+header {
+  border-bottom: 1px solid #222;
+  margin-bottom: 1rem;
+}
+
+footer {
+  text-align: right;
+  border-top: 1px solid #222;
+  margin-top: 1rem;
+}
+
+a {
+  color: #00e;
+  text-decoration: none;
+}
+
+a.active {
+  font-weight: bold;
+}
+
+main {
+  line-height: 150%;
+}
