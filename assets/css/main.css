@@ -33,6 +33,26 @@ a.active {
   font-weight: bold;
 }
 
+.post-list {
+  text-decoration: underline;
+}
+
+.ul-inline {
+  display: inline-block;
+}
+
+.ul-inline li {
+  display: inline-block;
+}
+
+.ul-inline li:after {
+  content: ' — ';
+}
+
+.ul-inline li:last-child:after {
+  content: '';
+}
+
 main {
   line-height: 150%;
 }
