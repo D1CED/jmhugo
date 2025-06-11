@@ -3,14 +3,14 @@ body {
   /* width: 35em; */
   margin: 0 auto;
   margin-bottom: 3em;
-  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Noto Sans", Tahoma, Verdana, Arial, sans-serif;
   color: rgb(53, 56, 57);  /* onyx */
   /* color: #222; */
   background-color: rgb(255, 255, 240);  /* ivory */
 }
 
 h1 {
-  font-family: Georgia, Garamond, Times, serif;
+  font-family: "Noto Serif", Georgia, Garamond, Times, serif;
 }
 
 header {
