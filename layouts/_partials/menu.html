@@ -32,7 +32,7 @@ Renders a menu for the given menu ID.
 
   {{- range .menuEntries }}
 
-    {{- if eq .Page.Permalink site.Home.Permalink }}
+    {{- if .Page.Eq site.Home }}
       {{- continue }}
     {{- end }}
 
