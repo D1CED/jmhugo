@@ -4,7 +4,8 @@
 
   <h2>Latest Posts</h2>
 
-  {{ range first 10 site.RegularPages }}
+  {{ $posts := where site.RegularPages "Section" "posts" }}
+  {{ range first 10 $posts }}
     <p>
       <time datetime="{{ .Date | time.Format "2006-01-02" }}">
         {{ .Date | time.Format "2006-01-02" }}
