@@ -11,7 +11,7 @@ Renders a menu for the given menu ID.
 {{- $menuID := .menuID }}
 
 {{- with index site.Menus $menuID }}
-  <nav class="pure-menu pure-menu-horizontal">
+  <nav class="pure-menu pure-menu-horizontal pure-menu-scrollable">
     <a class="pure-menu-heading pure-menu-link" href="{{ site.Home.RelPermalink }}">
       {{ site.Home.Name }}
     </a>
