@@ -17,6 +17,12 @@ Renders a menu for the given menu ID.
     </a>
     <ul class="pure-menu-list">
       {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
+
+      {{ range site.Taxonomies }}
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a>
+        </li>
+      {{ end }}
     </ul>
   </nav>
 {{- end }}
