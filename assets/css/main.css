@@ -29,17 +29,17 @@ p {
   line-height: 150%;
 }
 
-a {
+main a {
+  color: rgb(53, 56, 57);
+  text-decoration: underline;
+}
+
+main a:hover {
   color: #00e;
-  text-decoration: none;
 }
 
 a.active {
   font-weight: bold;
-}
-
-.post-list {
-  text-decoration: underline;
 }
 
 .ul-inline {
